@@ -1,0 +1,137 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    : :-webkit-scrollbar display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    background-image: url(https://www.shutterstock.com/image-vector/editable-vector-background-white-cloud-260nw-95923774.jpg);
+    background-size: cover;
+}
+
+
+.mainbox {
+    border: none;
+    border-radius: 30px;
+    margin: 20px;
+    margin-left: 27vw;
+    margin-right: 27vw;
+    height: 40vw;
+    background-image: url(https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148623068.jpg);
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+}
+
+.firstbox {
+    padding: 150px;
+    float: left;
+    width: 30vw;
+    height: 35vw;
+    position: absolute;
+    top: 8vw;
+    left: 35vw;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    background-color: rgba(117, 131, 238, 0.7);
+}
+
+
+.navbar nav h2 {
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    color: rgb(121, 39, 39);
+    font-family: sans-serif;
+}
+
+#celcius {
+    font-size: 30px;
+    text-align: center;
+    bottom: 120px;
+    position: relative;
+}
+
+#condition {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 110px;
+}
+
+#city {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 135px;
+}
+
+#date {
+    font-size: 19px;
+    position: relative;
+    left: 120px;
+    text-align: right;
+    bottom: 135px;
+}
+
+#Wind_Direction {
+    margin: 5px;
+}
+
+.underfirst {
+    border: 2px solid #3c89db;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    width: 17vw;
+    position: relative;
+    float: left;
+    right: 150px;
+    top: 10px;
+    margin: 4px;
+    background-color: rgba(69, 85, 212, 0.7);
+    font-size: 20px;
+}
+
+
+form.example input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: right;
+    width: 20%;
+    background: #f1f1f1;
+    position: relative;
+    right: 5vw;
+    top: 20px;
+}
+
+form.example button {
+    float: left;
+    width: 60px;
+    padding: 6px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    left: 7.5vw;
+    top: 20px;
+}
+
+
+#icon {
+    position: relative;
+    bottom: 125px;
+    left: 80px;
+}

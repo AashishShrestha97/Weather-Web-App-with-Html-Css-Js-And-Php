@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <h2>Weather Forecast Web</h2>
+            </nav>
+    </header>
+    <div class="mainbox">
+        <section>
+            <div class="firstbox">
+                <h2 id="celcius"></h2>
+                <h2 id="condition"></h2>
+                <span id="icon"><img src="https://openweathermap.org/img/wn/10d@2x.png" alt=""></span>
+                <h2 id="city"></h2>
+                <div id="date">
+                    <p id="Day"></p>
+                    <!-- <p id="displayDate"></p> -->
+                    <div class="underfirst">
+                        <p id="pressure">Pressure</p>
+                    </div>
+                    <div class="underfirst">
+                        <p id="wind">Wind Speed</p>
+                        <p id="Wind_Direction"></p>
+
+                    </div>
+                    <div class="underfirst">
+                        <p id="Humidity">Humidity</p>
+                    </div>
+                    <!-- <div class="underfirst">
+                    <p id="Wind_Direction"></p>
+                </div> -->
+                </div>
+            </div>
+            <form class="example">
+                <input type="text" class="search_input" placeholder="Search City" spellcheck="false">
+                <button type="submit" id="search"><i class="fa fa-search"></i></button>
+            </form>
+
+        </section>
+        <footer>
+
+        </footer>
+        <script src="Function.js"></script>
+</body>
+
+</html>
